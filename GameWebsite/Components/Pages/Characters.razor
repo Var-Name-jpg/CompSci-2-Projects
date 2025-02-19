@@ -1,0 +1,73 @@
+﻿@page "/characters"
+@using GameWebsite.Data
+@using GameWebsite.Models
+@inject NavigationManager NavManager
+
+@code {
+    private Player player = new Player(50, GameData.weapons["Fists"]);
+}
+
+<div class="characters-grid">
+    <div class="category">
+        <h4>Player</h4>
+        <div class="items-container">
+            <a href="/characterdetails/@player.Id" class="character-card">
+                <img src="Images/Enemies/Filler.jpg" alt="@player.Name" class="character-image" />
+                <p>@player.Name</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="category">
+        <h4>Enemies</h4>
+        <div class="items-container">
+            @foreach (var enemy in GameData.enemies.Values)
+            {
+                <a href="/characterdetails/@enemy.Id" class="character-card">
+                    <img src="Images/Enemies/Filler.jpg" alt="@enemy.Name" class="character-image" />
+                    <p>@enemy.Name</p>
+                </a>
+            }
+        </div>
+    </div>
+</div>
+
+<style>
+    .characters-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        flex-direction: column; /* Ensures categories stack properly */
+    }
+
+    .category {
+        width: 100%;
+    }
+
+    .items-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px; /* Adjust spacing between items */
+    }
+
+    .character-card {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: center;
+        width: 150px;
+    }
+
+        .character-card:hover {
+            background-color: #f0f0f0;
+        }
+
+    .character-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+</style>

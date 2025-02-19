@@ -1,0 +1,63 @@
+﻿@page "/itemdetails/{id}"
+@using GameWebsite.Data
+@using GameWebsite.Models
+@inject NavigationManager NavManager
+
+<h3>Item Details</h3>
+
+@code {
+    [Parameter] public string Id { get; set; }
+    private Item SelectedItem { get; set; }
+
+    protected override void OnInitialized()
+    {
+        // Try fetching the item from weapons or potions by the ID
+        if (GameData.weapons.TryGetValue(Id.Replace("_", " "), out var weapon))
+        {
+            SelectedItem = weapon;
+        }
+        else if (GameData.potions.TryGetValue(Id.Replace("_", " "), out var potion))
+        {
+            SelectedItem = potion;
+        }
+        else
+        {
+            SelectedItem = null;
+        }
+    }
+}
+
+@if (SelectedItem != null)
+{
+    <div class="item-details">
+        <h2>@SelectedItem.Name</h2>
+        <img src="Images/Items/Filler.jpg" alt="@SelectedItem.Name" class="item-image" />
+        <p>@SelectedItem.Description</p>
+
+        @if (SelectedItem is Weapon weapon)
+        {
+            <p><strong>Damage:</strong> @weapon.Damage</p>
+        }
+        @if (SelectedItem is Potion potion)
+        {
+            <p><strong>Effect:</strong> @potion.Effect</p>
+        }
+    </div>
+}
+else
+{
+    <p>Item not found</p>
+}
+
+<a href="/items">Back to Items</a>
+
+<style>
+    .item-details {
+        text-align: center;
+    }
+
+    .item-image {
+        width: 200px;
+        height: 200px;
+    }
+</style>
