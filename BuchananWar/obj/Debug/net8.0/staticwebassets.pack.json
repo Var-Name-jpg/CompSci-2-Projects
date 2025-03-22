@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\BuchananWar\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BuchananWar.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BuchananWar.stc5kufdzu.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\BuchananWar\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\BuchananWar\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\BuchananWar\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\BuchananWar\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BuchananWar.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BuchananWar.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BuchananWar.props",
+      "PackagePath": "build\\BuchananWar.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BuchananWar.props",
+      "PackagePath": "buildMultiTargeting\\BuchananWar.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BuchananWar.props",
+      "PackagePath": "buildTransitive\\BuchananWar.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
