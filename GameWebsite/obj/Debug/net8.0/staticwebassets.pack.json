@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GameWebsite.bundle.scp.css",
+      "PackagePath": "staticwebassets\\GameWebsite.86y08ednlu.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\Images\\Enemies\\Filler.jpg",
+      "PackagePath": "staticwebassets\\Images\\Enemies\\Filler.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\Images\\Items\\Filler.jpg",
+      "PackagePath": "staticwebassets\\Images\\Items\\Filler.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GameWebsite.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GameWebsite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.GameWebsite.props",
+      "PackagePath": "build\\GameWebsite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.GameWebsite.props",
+      "PackagePath": "buildMultiTargeting\\GameWebsite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.GameWebsite.props",
+      "PackagePath": "buildTransitive\\GameWebsite.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

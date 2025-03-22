@@ -1,0 +1,70 @@
+﻿@page "/characterdetails/{id}"
+@using GameWebsite.Data
+@using GameWebsite.Models
+@inject NavigationManager NavManager
+
+<h3>Character Details</h3>
+
+@code {
+    /// <summary>
+    /// The ID of the character passed as a parameter through the URL.
+    /// </summary>
+    [Parameter] public string Id { get; set; }
+
+    /// <summary>
+    /// The selected character to be displayed.
+    /// Can be either an enemy from the game data or null.
+    /// </summary>
+    private ICharacter SelectedCharacter { get; set; }
+
+    /// <summary>
+    /// Initializes the component and determines if the selected character
+    /// is an enemy or a default player character.
+    /// </summary>
+    protected override void OnInitialized()
+    {
+        // Check if SelectedCharacter is a player object
+        if (GameData.enemies.TryGetValue(Id.Replace("_", " "), out var enemy))
+        {
+            SelectedCharacter = enemy; // Set to enemy if found in dictionary
+        }
+        else
+        {
+            SelectedCharacter = null; // Default case
+        }
+    }
+}
+
+@if (SelectedCharacter != null)
+{
+    <div class="character-details">
+        <h2>@SelectedCharacter.Name</h2>
+        <img src="Images/Enemies/Filler.jpg" alt="@SelectedCharacter.Name" class="character-image" />
+
+        <p><strong>Health: </strong> @SelectedCharacter.Health</p>
+        <p><strong>Damage: </strong> @SelectedCharacter.Damage</p>
+    </div>
+}
+else
+{
+    <div class="character-details">
+        <img src="Images/Enemies/Filler.jpg" alt="Player" class="character-image" />
+
+        <p><strong>Base Health: </strong> 50</p>
+        <p><strong>Base Damage: </strong> 5</p>
+    </div>
+}
+
+<a href="/characters">Back to Characters</a>
+
+<style>
+    /* Styles for character details container and image */
+    .character-details {
+        text-align: center;
+    }
+
+    .character-image {
+        width: 200px;
+        height: 200px;
+    }
+</style>

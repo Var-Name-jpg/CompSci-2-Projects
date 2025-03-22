@@ -1,0 +1,846 @@
+{
+  "Version": 1,
+  "Hash": "iCtSV7WV5PzMm11QkaFqzWX5+A9NH0mnw9znBIi+esI=",
+  "Source": "GameWebsite",
+  "BasePath": "_content/GameWebsite",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "GameWebsite\\wwwroot",
+      "Source": "GameWebsite",
+      "ContentRoot": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\",
+      "BasePath": "_content/GameWebsite",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GameWebsite.styles.css",
+      "SourceId": "GameWebsite",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/GameWebsite",
+      "RelativePath": "GameWebsite#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "86y08ednlu",
+      "Integrity": "AD3bGijwWX9AfmfYQMrj1tp5oM6oJ3Tbdntc+hJ9NWc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GameWebsite.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GameWebsite.bundle.scp.css",
+      "SourceId": "GameWebsite",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/GameWebsite",
+      "RelativePath": "GameWebsite#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "86y08ednlu",
+      "Integrity": "AD3bGijwWX9AfmfYQMrj1tp5oM6oJ3Tbdntc+hJ9NWc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GameWebsite.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\app.css",
+      "SourceId": "GameWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\",
+      "BasePath": "_content/GameWebsite",
+      "RelativePath": "app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "da95v2qkru",
+      "Integrity": "u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.css"
+    },
+    {
+      "Identity": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "SourceId": "GameWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\",
+      "BasePath": "_content/GameWebsite",
+      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bpk8xqwxhs",
+      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "GameWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\",
+      "BasePath": "_content/GameWebsite",
+      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\favicon.png",
+      "SourceId": "GameWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\",
+      "BasePath": "_content/GameWebsite",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\Images\\Enemies\\Filler.jpg",
+      "SourceId": "GameWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\",
+      "BasePath": "_content/GameWebsite",
+      "RelativePath": "Images/Enemies/Filler#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zy5pp3u4oe",
+      "Integrity": "e2+vdmy9zkhtIBxJiSHJd7dPVgYR3O9d52yu16Ub6c4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Enemies\\Filler.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\Images\\Items\\Filler.jpg",
+      "SourceId": "GameWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\",
+      "BasePath": "_content/GameWebsite",
+      "RelativePath": "Images/Items/Filler#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z6sdzsiy4e",
+      "Integrity": "+2K0cEUnwDk5RulnfDH7xxlkrxO6uxVtEFy59X1L4SE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Items\\Filler.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 18:29:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="
+        }
+      ]
+    },
+    {
+      "Route": "app.da95v2qkru.css",
+      "AssetFile": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 18:29:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "da95v2qkru"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css",
+      "AssetFile": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 18:29:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bpk8xqwxhs"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 18:29:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 18:29:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 18:29:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ifv42okdf2.png",
+      "AssetFile": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 18:29:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 18:29:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "GameWebsite.86y08ednlu.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GameWebsite.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AD3bGijwWX9AfmfYQMrj1tp5oM6oJ3Tbdntc+hJ9NWc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 18:16:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "86y08ednlu"
+        },
+        {
+          "Name": "label",
+          "Value": "GameWebsite.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AD3bGijwWX9AfmfYQMrj1tp5oM6oJ3Tbdntc+hJ9NWc="
+        }
+      ]
+    },
+    {
+      "Route": "GameWebsite.86y08ednlu.styles.css",
+      "AssetFile": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GameWebsite.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AD3bGijwWX9AfmfYQMrj1tp5oM6oJ3Tbdntc+hJ9NWc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 18:16:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "86y08ednlu"
+        },
+        {
+          "Name": "label",
+          "Value": "GameWebsite.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AD3bGijwWX9AfmfYQMrj1tp5oM6oJ3Tbdntc+hJ9NWc="
+        }
+      ]
+    },
+    {
+      "Route": "GameWebsite.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GameWebsite.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AD3bGijwWX9AfmfYQMrj1tp5oM6oJ3Tbdntc+hJ9NWc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 18:16:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AD3bGijwWX9AfmfYQMrj1tp5oM6oJ3Tbdntc+hJ9NWc="
+        }
+      ]
+    },
+    {
+      "Route": "GameWebsite.styles.css",
+      "AssetFile": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GameWebsite.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AD3bGijwWX9AfmfYQMrj1tp5oM6oJ3Tbdntc+hJ9NWc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 18:16:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AD3bGijwWX9AfmfYQMrj1tp5oM6oJ3Tbdntc+hJ9NWc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Enemies/Filler.jpg",
+      "AssetFile": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\Images\\Enemies\\Filler.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5289"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e2+vdmy9zkhtIBxJiSHJd7dPVgYR3O9d52yu16Ub6c4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 01:46:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e2+vdmy9zkhtIBxJiSHJd7dPVgYR3O9d52yu16Ub6c4="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Enemies/Filler.zy5pp3u4oe.jpg",
+      "AssetFile": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\Images\\Enemies\\Filler.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5289"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e2+vdmy9zkhtIBxJiSHJd7dPVgYR3O9d52yu16Ub6c4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 01:46:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zy5pp3u4oe"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Enemies/Filler.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e2+vdmy9zkhtIBxJiSHJd7dPVgYR3O9d52yu16Ub6c4="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Items/Filler.jpg",
+      "AssetFile": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\Images\\Items\\Filler.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15793"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+2K0cEUnwDk5RulnfDH7xxlkrxO6uxVtEFy59X1L4SE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 01:34:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+2K0cEUnwDk5RulnfDH7xxlkrxO6uxVtEFy59X1L4SE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Items/Filler.z6sdzsiy4e.jpg",
+      "AssetFile": "C:\\Users\\Ethan\\Desktop\\School\\Coding Stuff\\GameWebsite\\wwwroot\\Images\\Items\\Filler.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15793"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+2K0cEUnwDk5RulnfDH7xxlkrxO6uxVtEFy59X1L4SE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 01:34:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z6sdzsiy4e"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Items/Filler.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+2K0cEUnwDk5RulnfDH7xxlkrxO6uxVtEFy59X1L4SE="
+        }
+      ]
+    }
+  ]
+}

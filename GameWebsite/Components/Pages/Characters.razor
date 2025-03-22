@@ -1,0 +1,83 @@
+﻿@page "/characters"
+@using GameWebsite.Data
+@using GameWebsite.Models
+@inject NavigationManager NavManager
+
+@code {
+    /// <summary>
+    /// Represents the player character with default health and the "Fists" weapon.
+    /// </summary>
+    private Player player = new Player(50, GameData.weapons["Fists"]);
+}
+
+<div class="characters-grid">
+    <div class="category">
+        <h4>Player</h4>
+        <div class="items-container">
+            <a href="/characterdetails/@player.Id" class="character-card">
+                <img src="Images/Enemies/Filler.jpg" alt="@player.Name" class="character-image" />
+                <p>@player.Name</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="category">
+        <h4>Enemies</h4>
+        <div class="items-container">
+            @foreach (var enemy in GameData.enemies.Values)
+            {
+                <a href="/characterdetails/@enemy.Id" class="character-card">
+                    <img src="Images/Enemies/Filler.jpg" alt="@enemy.Name" class="character-image" />
+                    <p>@enemy.Name</p>
+                </a>
+            }
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Styles for arranging characters grid */
+    .characters-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        flex-direction: column; /* Ensures categories stack properly */
+    }
+
+    /* Styles for individual categories */
+    .category {
+        width: 100%;
+    }
+
+    /* Styles for arranging character items within categories */
+    .items-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px; /* Adjust spacing between items */
+    }
+
+    /* Styles for character cards */
+    .character-card {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: center;
+        width: 150px;
+    }
+
+        /* Hover effect for character cards */
+        .character-card:hover {
+            background-color: #f0f0f0;
+        }
+
+    /* Styles for character images */
+    .character-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    /* Ensures links are styled properly */
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+</style>

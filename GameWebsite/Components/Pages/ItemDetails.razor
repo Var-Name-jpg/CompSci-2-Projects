@@ -1,0 +1,80 @@
+﻿@page "/itemdetails/{id}"
+@using GameWebsite.Data
+@using GameWebsite.Models
+@inject NavigationManager NavManager
+
+<h3>Item Details</h3>
+
+@code {
+    /// <summary>
+    /// The ID of the item passed as a parameter through the URL.
+    /// </summary>
+    [Parameter] public string Id { get; set; }
+
+    /// <summary>
+    /// The selected item to be displayed. Can be either a weapon, a potion, or null if not found.
+    /// </summary>
+    private Item SelectedItem { get; set; }
+
+    /// <summary>
+    /// Initializes the component and attempts to find the item in the weapons or potions collections.
+    /// If the item is not found in either collection, it sets SelectedItem to null.
+    /// </summary>
+    protected override void OnInitialized()
+    {
+        // Try fetching the item from weapons or potions by the ID
+        if (GameData.weapons.TryGetValue(Id.Replace("_", " "), out var weapon))
+        {
+            SelectedItem = weapon;
+        }
+        else if (GameData.potions.TryGetValue(Id.Replace("_", " "), out var potion))
+        {
+            SelectedItem = potion;
+        }
+        else
+        {
+            SelectedItem = null;
+        }
+    }
+}
+
+@if (SelectedItem != null)
+{
+    <div class="item-details">
+        <!-- Displays the name, image, and description of the selected item -->
+        <h2>@SelectedItem.Name</h2>
+        <img src="Images/Items/Filler.jpg" alt="@SelectedItem.Name" class="item-image" />
+        <p>@SelectedItem.Description</p>
+
+        @if (SelectedItem is Weapon weapon)
+        {
+            <!-- Displays damage information if the selected item is a weapon -->
+            <p><strong>Damage:</strong> @weapon.Damage</p>
+        }
+        @if (SelectedItem is Potion potion)
+        {
+            <!-- Displays effect information if the selected item is a potion -->
+            <p><strong>Effect:</strong> @potion.Effect</p>
+        }
+    </div>
+}
+else
+{
+    <!-- Message displayed if the item is not found -->
+    <p>Item not found</p>
+}
+
+<a href="/items">Back to Items</a>
+
+<style>
+    /* Styles for the item details container */
+    .item-details {
+        text-align: center;
+    }
+
+    /* Styles for item images */
+    .item-image {
+        width: 200px;
+        height: 200px;
+    }
+</style>

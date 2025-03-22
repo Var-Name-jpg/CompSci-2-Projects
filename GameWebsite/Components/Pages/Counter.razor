@@ -1,0 +1,26 @@
+﻿@page "/counter"
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<!-- Displays the current count and dynamically updates based on user interaction -->
+<p role="status">Current count: @currentCount</p>
+
+<!-- Button to increment the counter. Triggers the IncrementCount method on click -->
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    /// <summary>
+    /// Tracks the current count value, initialized to zero.
+    /// </summary>
+    private int currentCount = 0;
+
+    /// <summary>
+    /// Increments the current count by 1. Triggered when the button is clicked.
+    /// </summary>
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}
